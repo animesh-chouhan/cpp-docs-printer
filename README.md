@@ -34,16 +34,16 @@ $python3 cplusplus.py http://www.cplusplus.com/reference/cstdio/
 
 ## Usage example
 
-Sample C++ documentation:
+Sample C++ documentation <http://www.cplusplus.com/reference/cstdio/>:
 
 <p align="center">
-  <img src="images/cplusplus-min.png" width="700" align="center"/>
+  <img src="images/cplusplus-min.png" width="80%" align="center"/>
 </p>
 
 Sample pdf generated:
 
 <p align="center">
-  <img src="images/output-min.png"  width="700" align="center"/>
+  <img src="images/output-min.png"  width="80%" align="center"/>
 </p>
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
