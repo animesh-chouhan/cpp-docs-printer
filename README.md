@@ -34,9 +34,17 @@ $python3 cplusplus.py http://www.cplusplus.com/reference/cstdio/
 
 ## Usage example
 
-<a href="https://asciinema.org/a/bQgrwQfcFLtcuJpKMGEuq0Til?speed=2&preload=1&autoplay=1">
-  <img src="https://asciinema.org/a/bQgrwQfcFLtcuJpKMGEuq0Til.png" max-width="1000px"/>
-</a>
+Sample C++ documentation:
+
+<p align="center">
+  <img src="images/cplusplus-min.png" width="700" align="center"/>
+</p>
+
+Sample pdf generated:
+
+<p align="center">
+  <img src="images/output-min.png"  width="700" align="center"/>
+</p>
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
