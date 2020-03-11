@@ -17,26 +17,18 @@ $cd cpp-docs-printer
 Installing the dependencies:
 
 ```sh
-#run the script directly
-$chmod +x ./download.sh
-$./download.sh
+#requests
+$sudo pip3 install requests 
 
-
-#directly running the script
-$download
+#weasy-print
+$sudo apt-get install build-essential python3-dev python3-pip python3-setuptools python3-wheel python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+$sudo pip3 install WeasyPrint
 
 ```
-Add Jobs To cron:
+Running the python script:
 
 ```sh
-#creating a cron job that will update the playlists automatically
-$crontab -e
-
-#this will open a editor and add this entry to the file
-#don't forget the newline after the last entry
-
-PATH="/usr/local/bin:/usr/bin:/bin:/home/<YOUR-USERNAME>/.local/bin"
-@daily printf "update-all" | download
+$python3 cplusplus.py http://www.cplusplus.com/reference/cstdio/
 
 ```
 
