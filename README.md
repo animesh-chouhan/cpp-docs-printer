@@ -37,13 +37,13 @@ $python3 cplusplus.py http://www.cplusplus.com/reference/cstdio/
 Sample C++ documentation <http://www.cplusplus.com/reference/cstdio/>:
 
 <p align="center">
-  <img src="images/cplusplus-min.png" width="80%" align="center"/>
+  <img src="https://github.com/animesh-chouhan/cpp-docs-printer/blob/master/images/cplusplus-min.png" width="80%" align="center"/>
 </p>
 
-Sample pdf generated:
+Sample pdf generated [pdf](https://github.com/animesh-chouhan/cpp-docs-printer/blob/master/pdf/reference-cstdio.pdf):
 
 <p align="center">
-  <img src="images/output-min.png"  width="80%" align="center"/>
+  <img src="https://github.com/animesh-chouhan/cpp-docs-printer/blob/master/images/output-min.png"  width="80%" align="center"/>
 </p>
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
