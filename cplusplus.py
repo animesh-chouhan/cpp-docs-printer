@@ -24,7 +24,6 @@ def get_html(url):
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <title>C++ Reference</title>
-            <link rel="canonical" href="http://www.cplusplus.com/reference/cstdio/printf/">
             <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
             <link rel="stylesheet" type="text/css" href="../css/main.css">
         </head>
