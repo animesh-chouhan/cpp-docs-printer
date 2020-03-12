@@ -32,6 +32,7 @@ $python3 cplusplus.py http://www.cplusplus.com/reference/cstdio/
 
 ```
 
+
 ## Usage example
 
 Sample C++ documentation <http://www.cplusplus.com/reference/cstdio/>:
@@ -45,6 +46,8 @@ Sample pdf generated [pdf](https://github.com/animesh-chouhan/cpp-docs-printer/b
 <p align="center">
   <img src="images/output-min.png"  width="80%" align="center"/>
 </p>
+
+The generated .html and .pdf files are located in the html and pdf folders respectively.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
