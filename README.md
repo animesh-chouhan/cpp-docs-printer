@@ -17,8 +17,14 @@ $cd cpp-docs-printer
 Installing the dependencies:
 
 ```sh
+#install python3-pip
+$sudo apt-get install python3-pip
+
 #requests
 $sudo pip3 install requests 
+
+#beautifulsoup4
+$sudo pip3 install beautifulsoup4
 
 #weasy-print
 $sudo apt-get install build-essential python3-dev python3-pip python3-setuptools python3-wheel python3-cffi libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
@@ -31,6 +37,7 @@ Running the python script:
 $python3 cplusplus.py http://www.cplusplus.com/reference/cstdio/
 
 ```
+
 
 ## Usage example
 
@@ -45,6 +52,8 @@ Sample pdf generated [pdf](https://github.com/animesh-chouhan/cpp-docs-printer/b
 <p align="center">
   <img src="images/output-min.png"  width="80%" align="center"/>
 </p>
+
+The generated .html and .pdf files are located in the html and pdf folders respectively.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
