@@ -45,6 +45,7 @@ def get_pdf(filename):
     html_file = "./html/{}.html".format(filename)
     pdf_file = "./pdf/{}.pdf".format(filename)
     HTML(html_file).write_pdf(pdf_file)
+    print("Done")
 
 
 if __name__ == "__main__":
