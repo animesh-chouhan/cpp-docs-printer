@@ -1,6 +1,7 @@
 import os
 import sys
 import requests
+import argparse
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from weasyprint import HTML, CSS
@@ -14,7 +15,7 @@ def get_html(url):
     tag = soup.find(id="I_main")
 
     if tag == None:
-        print("Something went wrong.")
+        print("Something went wrong. The URL seems to be incorrect.")
         return None
     else:
         body = tag.wrap(soup.new_tag("body")).prettify()
@@ -48,6 +49,14 @@ def get_pdf(filename):
 
 
 if __name__ == "__main__":
-    filename = get_html(sys.argv[1])
-    if filename != None:
-        get_pdf(filename)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("url", help="url of the documentation")
+    args = parser.parse_args()
+
+    if args.url:
+        try:
+            filename = get_html(args.url)
+            if filename != None:
+                get_pdf(filename)
+        except Exception as e:
+            print(e)
