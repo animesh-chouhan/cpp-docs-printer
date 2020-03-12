@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+google_analytics: UA-156551368-2
+
+title: cpp-docs-printer
+description: Generates PDF documents from the C++ documentation
+show_downloads: true
